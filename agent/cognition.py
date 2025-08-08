@@ -4,7 +4,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.messages import HumanMessage
 
 # ✅ Set your API key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyBQPdYspFjp2y-cOGMp7QwIuYPGbyJGzI8"  # Replace with your actual Gemini API key
+os.environ["GOOGLE_API_KEY"] = "API_KEY"  # Replace with your actual Gemini API key
 
 # ✅ Initialize Gemini
 llm = ChatGoogleGenerativeAI(model="gemini-pro", temperature=0.7)
