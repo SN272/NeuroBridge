@@ -282,7 +282,7 @@ app = Flask(__name__)
 api_key = os.getenv("GOOGLE_API_KEY")
 if not api_key:
     print("ERROR: The GOOGLE_API_KEY environment variable is not set.", file=sys.stderr)
-    print("Please set your Google API key: export GOOGLE_API_KEY='AIzaSyBQPdYspFjp2y-cOGMp7QwIuYPGbyJGzI8'")
+    print("Please set your Google API key: export GOOGLE_API_KEY='API KEY'")
     sys.exit(1)
 
 emotion_agent = EmotionAgent(api_key=api_key)
